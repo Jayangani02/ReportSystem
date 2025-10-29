@@ -1,0 +1,119 @@
+.header {
+  background-color: var(--header-bg);
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: 14px;
+  color: var(--gray-600);
+}
+
+.separator {
+  color: var(--gray-400);
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  background-color: var(--gray-100);
+  border-radius: 24px;
+  padding: 0 var(--spacing-md);
+  width: 280px;
+}
+
+.searchInput {
+  border: none;
+  background: transparent;
+  padding: 10px;
+  flex: 1;
+  font-size: 14px;
+}
+
+.searchBtn {
+  background: var(--gray-400);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+}
+
+.iconGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.iconBtn {
+  background: transparent;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--transition-fast);
+  position: relative;
+  font-size: 18px;
+}
+
+.iconBtn:hover {
+  background-color: var(--gray-100);
+}
+
+.notificationBadge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--danger-color);
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 10px;
+  min-width: 18px;
+  text-align: center;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.userProfile:hover {
+  background-color: var(--gray-100);
+}
+
+.userIcon {
+  font-size: 24px;
+}
+
+.userName {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gray-700);
+}

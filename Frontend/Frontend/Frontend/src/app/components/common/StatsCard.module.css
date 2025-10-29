@@ -1,0 +1,78 @@
+/* src/components/Common/StatsCard.module.css */
+.card {
+  background-color: white;
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.label {
+  font-size: 13px;
+  color: var(--gray-600);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--gray-800);
+}
+
+/* Color variants */
+.blue {
+  border-left-color: var(--info-color);
+}
+
+.blue .value {
+  color: var(--info-color);
+}
+
+.green {
+  border-left-color: var(--success-color);
+}
+
+.green .value {
+  color: var(--success-color);
+}
+
+.orange {
+  border-left-color: var(--warning-color);
+}
+
+.orange .value {
+  color: var(--warning-color);
+}
+
+.purple {
+  border-left-color: #9333ea;
+}
+
+.purple .value {
+  color: #9333ea;
+}
+
+.teal {
+  border-left-color: var(--primary-color);
+}
+
+.teal .value {
+  color: var(--primary-color);
+}
+
+.red {
+  border-left-color: var(--danger-color);
+}
+
+.red .value {
+  color: var(--danger-color);
+}

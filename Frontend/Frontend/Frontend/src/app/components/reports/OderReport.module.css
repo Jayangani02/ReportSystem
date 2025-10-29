@@ -1,0 +1,244 @@
+/* src/components/Reports/OrderReport.module.css */
+.container {
+  padding: var(--spacing-lg);
+  background-color: var(--gray-100);
+  min-height: calc(100vh - var(--header-height));
+}
+
+.pageHeader {
+  background-color: var(--gray-600);
+  color: white;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  margin-bottom: var(--spacing-lg);
+}
+
+.pageHeader h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.reportCard {
+  background-color: white;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 2px solid var(--gray-200);
+  background-color: var(--gray-50);
+}
+
+.tab {
+  flex: 1;
+  padding: var(--spacing-md) var(--spacing-lg);
+  background-color: transparent;
+  border: 2px solid var(--gray-400);
+  border-bottom: none;
+  color: var(--gray-700);
+  font-weight: 500;
+  font-size: 13px;
+  transition: all var(--transition-fast);
+  margin-right: 2px;
+}
+
+.tab:hover {
+  background-color: var(--gray-100);
+}
+
+.activeTab {
+  background-color: white;
+  color: #d946ef;
+  border-color: #d946ef;
+  position: relative;
+}
+
+.activeTab::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: white;
+}
+
+.filterSection {
+  padding: var(--spacing-lg);
+  background-color: var(--gray-50);
+}
+
+.filterRow {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.filterRow:last-child {
+  margin-bottom: 0;
+}
+
+.filterGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.radioGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--gray-700);
+}
+
+.radioGroup input[type='radio'] {
+  cursor: pointer;
+  accent-color: var(--primary-color);
+}
+
+.select {
+  padding: 8px 12px;
+  border: 1px solid var(--gray-300);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  background-color: white;
+  color: var(--gray-700);
+  min-width: 180px;
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+}
+
+.select:hover {
+  border-color: var(--primary-color);
+}
+
+.select:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.dateInput {
+  padding: 8px 12px;
+  border: 1px solid var(--gray-300);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  background-color: white;
+  color: var(--gray-700);
+  min-width: 160px;
+  transition: border-color var(--transition-fast);
+}
+
+.dateInput:hover {
+  border-color: var(--primary-color);
+}
+
+.dateInput:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.userIcon {
+  width: 32px;
+  height: 32px;
+  background-color: var(--gray-700);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.searchBtn {
+  padding: 10px 32px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  transition: background-color var(--transition-fast);
+}
+
+.searchBtn:hover {
+  background-color: var(--primary-dark);
+}
+
+.exportBtn {
+  padding: 10px 20px;
+  background-color: var(--success-color);
+  color: white;
+  border-radius: var(--radius-sm);
+  font-size: 18px;
+  transition: opacity var(--transition-fast);
+}
+
+.exportBtn:hover {
+  opacity: 0.9;
+}
+
+.pagination {
+  padding: 8px 16px;
+  border: 1px solid var(--gray-300);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  background-color: white;
+  color: var(--gray-700);
+  min-width: 60px;
+  text-align: center;
+}
+
+.tableContainer {
+  overflow-x: auto;
+  padding: var(--spacing-lg);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.table thead {
+  background-color: #93c5fd;
+}
+
+.table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--gray-800);
+  border: 1px solid var(--gray-300);
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 12px;
+  font-size: 13px;
+  color: var(--gray-700);
+  border: 1px solid var(--gray-300);
+}
+
+.table tbody tr:hover {
+  background-color: var(--gray-50);
+}
+
+.noData {
+  text-align: center;
+  padding: var(--spacing-xl);
+  color: var(--gray-500);
+  font-style: italic;
+}

@@ -1,0 +1,103 @@
+/* src/components/Layout/Sidebar.module.css */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: var(--sidebar-width);
+  height: 100vh;
+  background-color: var(--sidebar-bg);
+  color: white;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: var(--shadow-lg);
+}
+
+.logo {
+  padding: var(--spacing-lg);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.logo h2 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.nav {
+  padding: var(--spacing-md) 0;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 12px var(--spacing-lg);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.menuItem:hover {
+  background-color: var(--sidebar-item-hover);
+  color: white;
+}
+
+.menuItem.active {
+  background-color: var(--sidebar-item-active);
+  color: white;
+}
+
+.menuItem.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: white;
+}
+
+.icon {
+  margin-right: var(--spacing-md);
+  font-size: 18px;
+  min-width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  flex: 1;
+  font-size: 14px;
+}
+
+.arrow {
+  font-size: 10px;
+  margin-left: auto;
+  transition: transform var(--transition-fast);
+}
+
+.submenu {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: var(--spacing-sm) 0;
+}
+
+.submenuItem {
+  padding: 10px var(--spacing-lg) 10px 60px;
+  cursor: pointer;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: all var(--transition-fast);
+}
+
+.submenuItem:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+.activeSubmenu {
+  background-color: rgba(0, 188, 212, 0.2);
+  color: var(--primary-color);
+  font-weight: 500;
+}
