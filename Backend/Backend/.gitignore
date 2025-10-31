@@ -1,5 +1,8 @@
 # dependencies
+node_modules/
 .env
+Backend/Backend/node_modules/
+
 
 # build output
 .next/
