@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Administrator/Desktop/Dash%20Board/NextJs/ReportSystem/Backend/Backend/app/globals.css"],"sourcesContent":["@tailwind base;\r\n@tailwind components;\r\n@tailwind utilities;\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  max-width: 100vw;\r\n  overflow-x: hidden;\r\n}\r\n\r\nbody {\r\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\r\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\r\n    sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}"],"names":[],"mappings":"AAAA;;AACA;;AACA;;AAEA;;;;;;AAMA;;;;;AAMA","debugId":null}}]
+}

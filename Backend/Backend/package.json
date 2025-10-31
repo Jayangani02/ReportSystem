@@ -1,12 +1,12 @@
 {
-  "name": "backend",
+  "name": "employee-report",
   "version": "1.0.0",
-  "description": "Backend server for Report System",
-  "main": "server.js",
-  "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "author": "",
   "license": "ISC",
@@ -14,9 +14,14 @@
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
     "express": "^5.1.0",
-    "mysql2": "^3.15.3"
+    "mysql2": "^3.15.3",
+    "next": "^16.0.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
   }
 }
