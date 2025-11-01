@@ -111,3 +111,3182 @@ Import traces:
 [00:10:07.605] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:10:07.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:19:04.691] Server  LOG      ✓ Compiled in 24ms
+[00:30:11.273] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.276] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.277] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.279] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.282] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.283] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.284] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.286] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.292] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.294] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.296] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.298] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.299] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.302] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.304] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.306] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.308] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.311] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.361] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.371] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.374] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.377] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.379] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.393] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.396] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.398] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.401] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.405] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.410] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.418] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.433] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.441] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.444] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.458] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.474] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.476] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.495] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.512] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.524] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.528] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.536] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.538] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.545] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.553] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.554] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.557] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.559] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.561] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.564] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.568] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.572] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.573] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.575] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.578] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.588] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.590] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.593] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.596] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.600] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.603] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.606] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.608] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.621] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.626] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.637] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.640] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.642] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.644] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.647] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.655] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.657] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.659] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.664] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.667] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.670] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.672] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.673] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.675] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.677] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.678] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.681] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.683] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.685] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.688] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.690] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.692] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.695] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.699] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.703] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.705] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.707] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.710] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.712] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.719] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.722] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.723] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.727] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.729] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.731] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.734] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.738] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.741] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.742] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.745] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.749] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.753] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.754] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.757] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.759] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.760] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.762] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.766] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.770] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.772] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.774] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.776] Server  ERROR    ⨯ ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.779] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.781] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.784] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.789] Server  ERROR    ⨯ ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:30:11.792] Server  LOG      ✓ Compiled in 282ms
+[00:30:12.199] Browser ERROR   ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:30:12.199] Browser ERROR   ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:30:12.199] Browser ERROR   ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:30:12.199] Browser ERROR   ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:30:12.200] Browser ERROR   ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:30:12.200] Browser ERROR   ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:30:12.200] Browser ERROR   ./app/page.js:31:1
+Module not found: Can't resolve '@/components/Dashboard'
+  29 | import React, { useState } from 'react';
+  30 | import Sidebar from '@/components/Sidebar';
+> 31 | import Dashboard from '@/components/Dashboard';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  32 |
+  33 | const MainLayout = () => {
+  34 |   const [currentPage, setCurrentPage] = useState('HR');
+
+Import map: aliased to relative './components/Dashboard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:30:12.200] Browser ERROR   ./app/page.js:30:1
+Module not found: Can't resolve '@/components/Sidebar'
+  28 | 'use client';
+  29 | import React, { useState } from 'react';
+> 30 | import Sidebar from '@/components/Sidebar';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  31 | import Dashboard from '@/components/Dashboard';
+  32 |
+  33 | const MainLayout = () => {
+
+Import map: aliased to relative './components/Sidebar' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:30:13.121] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:13.474] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
